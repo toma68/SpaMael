@@ -19,7 +19,7 @@ function callApi() {
         });
 }
 
-for (let i = 0; i < 100000; i++) {
+for (let i = 0; i < 1000; i=i) {
     setTimeout(callApi, 10 *i);
 }
 
